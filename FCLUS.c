@@ -5,7 +5,7 @@ int main(){
 	u = 300;
 	s = 20;
 	f = l;
-	while (f <=) u) {
+	while (f <= u) {
 		c = 5 * (f - 32) / 9;
 		printf("%dF\t=\t%dC\n");
 		f += s;
