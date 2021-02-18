@@ -7,9 +7,9 @@ main()
 	float fahr, celsius;
 	int lower, upper, step;
 	
-	lower = 0;            /* límite inferiro de la tabla de temperaturas */
-	upper = 300; /* límite superior */
-	step = 20;            /* tamaño del incremento */
+	lower = 0;            /* lÃ­mite inferiro de la tabla de temperaturas */
+	upper = 300; /* lÃ­mite superior */
+	step = 20;            /* tamaÃ±o del incremento */
 	
 	fahr = lower;
 	while (fahr <= upper) {
