@@ -12,5 +12,5 @@ int main()
 			n2++;
 		else if(c == ' ')
 			n3++;
-	printf("Number of new lines: %d.\nNumber of tabs: %d.\nNumber of blanks: %d.", n1,n2,n3);
+	printf("Number of new lines: %d.\nNumber of tabs: %d.\nNumber of blanks: %d.");
 }
