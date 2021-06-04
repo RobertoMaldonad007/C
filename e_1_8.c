@@ -2,15 +2,15 @@
 
 int main()
 {
-	int c, nl, nt, nb;//nl = new line, nt = new tab, nb = new blanks.
+	int c, n1, n2, n3;
 	
-	nl = nt = nb = 0;
+	n1 = n2 = n3 =0;
 	while((c = getchar()) != EOF)
 		if(c == '\n')
-			nl++;
+			n1++;
 		else if(c == '\t')
-			nt++;
-		else if (c == ' ');
-			nb++;
-	printf("Number of new lines: %d.\nNumber of tabs: %d.\nNumber of blanks: %d.", nl,nt,nb);
+			n2++;
+		else if(c == ' ')
+			n3++;
+	printf("Number of new lines: %d.\nNumber of tabs: %d.\nNumber of blanks: %d.", n1,n2,n3);
 }
