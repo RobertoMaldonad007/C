@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /* imprime la tabla Fahrenheit-Celsius */
-main()
+int main()
 {
 	int fahr;
 	
