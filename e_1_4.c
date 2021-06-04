@@ -1,19 +1,21 @@
 #include<stdio.h>
 
 /* imprime la tabla Celsius-Fahrenheit
-    para fahr = 0, 20, ..., 300; versión de punto flotante */
-main()
+    para fahr = 0, 20, ..., 300; versiÃ³n de punto flotante */
+int main()
 {
+	printf("Tabla de conversiÃ³n (Celsius-Fahreheit)\n\n");
+
 	float celsius, fahr;
 	int lower, upper, step;
 	
-	lower = 0;           /* límite superior de la tabla de temperaturas */
-	upper = 300; /* límite superior */
-	step = 20;           /* tamaño del incremento */
+	lower = 0;		/* lÃ­mite inferior de la tabla de temperaturas */
+	upper = 300;	/* lÃ­mite superior */
+	step = 20;		/* tamaÃ±o del incremento */
 	
 	celsius = lower;
 	while (celsius <= upper) {
-		fahr = (celsius * 9/5 + 32);
+		fahr = (9.0/5.0*celsius)+32.0;
 		printf("%3.0f\t%6.1f\n", celsius, fahr);
 		celsius = celsius + step;
 	}
