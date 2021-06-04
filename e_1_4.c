@@ -13,7 +13,6 @@ int main()
 	upper = 300;	/* límite superior */
 	step = 20;		/* tamaño del incremento */
 
-	
 	celsius = lower;
 	while (celsius <= upper) {
 		fahr = (9.0/5.0*celsius)+32.0;
