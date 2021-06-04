@@ -1,12 +1,10 @@
 #include <stdio.h>
 
-/* copia la entrada a la salida; 2a. versión */
-main()
+/* copia la entrada a la salida; 2a. versiÃ³n */
+int main()
 {
 	int c;
 	
-	while (((c = getchar()) != EOF) == 0)
-	{
-		putchar(c);
-	}
+	c = getchar() != EOF;
+	printf("c = getchar() != EOF is %d\n",c);
 }
