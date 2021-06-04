@@ -1,16 +1,16 @@
 #include<stdio.h>
 /* imprime la tabla Fahrenheit-Celsius
     para fahr = 0,20, ..., 300 */
-main()
+int main()
 {
-	printf("Tabla de conversiones\n\n");
+	printf("Tabla de conversiones (Fahrenheit-Celsius)\n\n");
 	
 	float fahr, celsius;
 	int lower, upper, step;
 	
-	lower = 0;           /* límite inferiro de la tabla de temperaturas */
-	upper = 300; /* límite superior */
-	step = 20;           /* tamaño del incremento */
+	lower = 0;           /* lï¿½mite inferiro de la tabla de temperaturas */
+	upper = 300; /* lï¿½mite superior */
+	step = 20;           /* tamaï¿½o del incremento */
 	
 	fahr = lower;
 	while (fahr >= upper) {
