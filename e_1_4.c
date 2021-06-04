@@ -12,6 +12,7 @@ int main()
 	lower = 0;		/* límite inferior de la tabla de temperaturas */
 	upper = 300;	/* límite superior */
 	step = 20;		/* tamaño del incremento */
+
 	
 	celsius = lower;
 	while (celsius <= upper) {
